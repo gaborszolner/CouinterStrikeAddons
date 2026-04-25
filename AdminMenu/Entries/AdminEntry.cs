@@ -9,6 +9,5 @@ namespace AdminMenu.Entries
 
         [JsonPropertyName("flags")]
         public string[] Flags { get; set; } = [];
-
     }
 }

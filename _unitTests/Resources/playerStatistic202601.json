@@ -1,0 +1,782 @@
+{
+  "STEAM_0:0:22037345": {
+    "identity": "STEAM_0:0:22037345",
+    "name": "NewIm",
+    "kill": 720,
+    "dead": 468,
+    "selfkill": 2,
+    "teamkill": 4,
+    "assister": 158,
+    "Score": 1.695095948827292
+  },
+  "STEAM_0:1:32534122": {
+    "identity": "STEAM_0:1:32534122",
+    "name": "\u2022 \u10E6 \u0B90 Ancsa \u0B90 \u10E6 \u2022",
+    "kill": 80,
+    "dead": 126,
+    "selfkill": 1,
+    "teamkill": 1,
+    "assister": 30,
+    "Score": 0.7362204724409449
+  },
+  "STEAM_0:1:60009359": {
+    "identity": "STEAM_0:1:60009359",
+    "name": "testos.. #",
+    "kill": 453,
+    "dead": 300,
+    "selfkill": 1,
+    "teamkill": 3,
+    "assister": 94,
+    "Score": 1.6528239202657806
+  },
+  "STEAM_0:1:35621956": {
+    "identity": "STEAM_0:1:35621956",
+    "name": "Mad\u00E1rtely",
+    "kill": 3022,
+    "dead": 2026,
+    "selfkill": 16,
+    "teamkill": 8,
+    "assister": 671,
+    "Score": 1.6465219536260483
+  },
+  "STEAM_0:0:441559502": {
+    "identity": "STEAM_0:0:441559502",
+    "name": "Sinistral",
+    "kill": 1341,
+    "dead": 1250,
+    "selfkill": 10,
+    "teamkill": 3,
+    "assister": 355,
+    "Score": 1.2046362909672261
+  },
+  "STEAM_0:0:203114556": {
+    "identity": "STEAM_0:0:203114556",
+    "name": "It\u0027s My Life",
+    "kill": 1805,
+    "dead": 2355,
+    "selfkill": 55,
+    "teamkill": 6,
+    "assister": 670,
+    "Score": 0.8837011884550084
+  },
+  "STEAM_0:0:150034436": {
+    "identity": "STEAM_0:0:150034436",
+    "name": "Krist\u00F3f",
+    "kill": 516,
+    "dead": 359,
+    "selfkill": 1,
+    "teamkill": 1,
+    "assister": 109,
+    "Score": 1.5805555555555555
+  },
+  "STEAM_0:1:583541001": {
+    "identity": "STEAM_0:1:583541001",
+    "name": "tkende",
+    "kill": 1637,
+    "dead": 1428,
+    "selfkill": 16,
+    "teamkill": 4,
+    "assister": 410,
+    "Score": 1.2764170748775368
+  },
+  "STEAM_0:1:245411948": {
+    "identity": "STEAM_0:1:245411948",
+    "name": "\uD835\uDE68\uD835\uDE5E\uD835\uDE64",
+    "kill": 1371,
+    "dead": 1027,
+    "selfkill": 6,
+    "teamkill": 10,
+    "assister": 260,
+    "Score": 1.4494163424124513
+  },
+  "STEAM_0:1:398782052": {
+    "identity": "STEAM_0:1:398782052",
+    "name": "K\u00FAr\u00F3Rudi",
+    "kill": 21,
+    "dead": 20,
+    "selfkill": 0,
+    "teamkill": 0,
+    "assister": 7,
+    "Score": 1.1666666666666667
+  },
+  "STEAM_0:0:94968898": {
+    "identity": "STEAM_0:0:94968898",
+    "name": "vivi",
+    "kill": 593,
+    "dead": 760,
+    "selfkill": 3,
+    "teamkill": 2,
+    "assister": 229,
+    "Score": 0.9244415243101183
+  },
+  "STEAM_0:0:77694869": {
+    "identity": "STEAM_0:0:77694869",
+    "name": "Kroki 77",
+    "kill": 469,
+    "dead": 1127,
+    "selfkill": 7,
+    "teamkill": 3,
+    "assister": 211,
+    "Score": 0.50177304964539
+  },
+  "STEAM_0:1:26008526": {
+    "identity": "STEAM_0:1:26008526",
+    "name": "NUMERO",
+    "kill": 529,
+    "dead": 635,
+    "selfkill": 3,
+    "teamkill": 1,
+    "assister": 170,
+    "Score": 0.9599056603773585
+  },
+  "STEAM_0:0:5924827": {
+    "identity": "STEAM_0:0:5924827",
+    "name": "]JK[ Koszti \uC6C3 \uC720 \u267F\u261E\uFE0E\u2620",
+    "kill": 847,
+    "dead": 1420,
+    "selfkill": 10,
+    "teamkill": 4,
+    "assister": 287,
+    "Score": 0.6885995777621393
+  },
+  "STEAM_0:1:57091412": {
+    "identity": "STEAM_0:1:57091412",
+    "name": "Shotipuder \u30C4",
+    "kill": 104,
+    "dead": 221,
+    "selfkill": 1,
+    "teamkill": 0,
+    "assister": 35,
+    "Score": 0.5427927927927928
+  },
+  "STEAM_0:0:16206244": {
+    "identity": "STEAM_0:0:16206244",
+    "name": "Pityuh",
+    "kill": 504,
+    "dead": 365,
+    "selfkill": 2,
+    "teamkill": 2,
+    "assister": 175,
+    "Score": 1.6079234972677596
+  },
+  "STEAM_0:0:442989894": {
+    "identity": "STEAM_0:0:442989894",
+    "name": "AMAT\u0150R",
+    "kill": 93,
+    "dead": 54,
+    "selfkill": 0,
+    "teamkill": 0,
+    "assister": 23,
+    "Score": 1.9
+  },
+  "STEAM_0:0:43199417": {
+    "identity": "STEAM_0:0:43199417",
+    "name": "N\u00F3t\u00E1s",
+    "kill": 461,
+    "dead": 620,
+    "selfkill": 0,
+    "teamkill": 3,
+    "assister": 142,
+    "Score": 0.8542673107890499
+  },
+  "STEAM_0:0:27259491": {
+    "identity": "STEAM_0:0:27259491",
+    "name": "GiZMO_*",
+    "kill": 21,
+    "dead": 27,
+    "selfkill": 1,
+    "teamkill": 0,
+    "assister": 9,
+    "Score": 0.875
+  },
+  "STEAM_0:0:41040283": {
+    "identity": "STEAM_0:0:41040283",
+    "name": "Black Jesus",
+    "kill": 4,
+    "dead": 8,
+    "selfkill": 0,
+    "teamkill": 0,
+    "assister": 3,
+    "Score": 0.6111111111111112
+  },
+  "STEAM_0:0:190362488": {
+    "identity": "STEAM_0:0:190362488",
+    "name": "Avidano Vani^^",
+    "kill": 1209,
+    "dead": 1547,
+    "selfkill": 10,
+    "teamkill": 1,
+    "assister": 405,
+    "Score": 0.9050387596899225
+  },
+  "STEAM_0:0:845079430": {
+    "identity": "STEAM_0:0:845079430",
+    "name": "Dr. Tim\u00F3ti Tyoty",
+    "kill": 7,
+    "dead": 5,
+    "selfkill": 0,
+    "teamkill": 0,
+    "assister": 1,
+    "Score": 1.25
+  },
+  "STEAM_0:0:6667777": {
+    "identity": "STEAM_0:0:6667777",
+    "name": "[NK]BALU PAPA(J\u00E1r\u00F3keret)",
+    "kill": 78,
+    "dead": 151,
+    "selfkill": 3,
+    "teamkill": 0,
+    "assister": 19,
+    "Score": 0.555921052631579
+  },
+  "STEAM_0:1:458365060": {
+    "identity": "STEAM_0:1:458365060",
+    "name": "patesz",
+    "kill": 66,
+    "dead": 61,
+    "selfkill": 3,
+    "teamkill": 0,
+    "assister": 18,
+    "Score": 1.1612903225806452
+  },
+  "STEAM_0:1:150431878": {
+    "identity": "STEAM_0:1:150431878",
+    "name": "Dilaj",
+    "kill": 164,
+    "dead": 238,
+    "selfkill": 4,
+    "teamkill": 3,
+    "assister": 58,
+    "Score": 0.7845188284518828
+  },
+  "STEAM_0:1:155574162": {
+    "identity": "STEAM_0:1:155574162",
+    "name": "J u d g e D r e d d",
+    "kill": 474,
+    "dead": 308,
+    "selfkill": 2,
+    "teamkill": 0,
+    "assister": 109,
+    "Score": 1.703883495145631
+  },
+  "STEAM_0:0:132466730": {
+    "identity": "STEAM_0:0:132466730",
+    "name": "yletr\u00E1daM",
+    "kill": 256,
+    "dead": 199,
+    "selfkill": 2,
+    "teamkill": 1,
+    "assister": 53,
+    "Score": 1.4
+  },
+  "STEAM_0:0:6183627": {
+    "identity": "STEAM_0:0:6183627",
+    "name": "Liquid",
+    "kill": 9,
+    "dead": 29,
+    "selfkill": 0,
+    "teamkill": 0,
+    "assister": 1,
+    "Score": 0.31666666666666665
+  },
+  "STEAM_0:1:7004440": {
+    "identity": "STEAM_0:1:7004440",
+    "name": "k0zLOW",
+    "kill": 770,
+    "dead": 417,
+    "selfkill": 5,
+    "teamkill": 2,
+    "assister": 164,
+    "Score": 2.0239234449760763
+  },
+  "STEAM_0:0:2512080": {
+    "identity": "STEAM_0:0:2512080",
+    "name": "\u04B2a\u03B2a",
+    "kill": 116,
+    "dead": 175,
+    "selfkill": 1,
+    "teamkill": 2,
+    "assister": 43,
+    "Score": 0.7698863636363636
+  },
+  "STEAM_0:1:197117924": {
+    "identity": "STEAM_0:1:197117924",
+    "name": "CSalaM\u00E1t\u00E9",
+    "kill": 346,
+    "dead": 786,
+    "selfkill": 3,
+    "teamkill": 0,
+    "assister": 141,
+    "Score": 0.525412960609911
+  },
+  "STEAM_0:0:143211814": {
+    "identity": "STEAM_0:0:143211814",
+    "name": "bons",
+    "kill": 486,
+    "dead": 658,
+    "selfkill": 7,
+    "teamkill": 0,
+    "assister": 160,
+    "Score": 0.8482549317147192
+  },
+  "STEAM_0:1:604809536": {
+    "identity": "STEAM_0:1:604809536",
+    "name": "\uD835\uDC69\uD835\uDC90\uD835\uDC95\uD835\uDC91\uD835\uDC82\uD835\uDC94\uD835\uDC94",
+    "kill": 254,
+    "dead": 220,
+    "selfkill": 3,
+    "teamkill": 1,
+    "assister": 77,
+    "Score": 1.3076923076923077
+  },
+  "STEAM_0:1:55655971": {
+    "identity": "STEAM_0:1:55655971",
+    "name": "Dawe #Fearless",
+    "kill": 551,
+    "dead": 407,
+    "selfkill": 1,
+    "teamkill": 1,
+    "assister": 144,
+    "Score": 1.5232843137254901
+  },
+  "STEAM_0:1:9705206": {
+    "identity": "STEAM_0:1:9705206",
+    "name": "\u32E1Gyurcsi Fercsi\u32DB at Linux",
+    "kill": 99,
+    "dead": 249,
+    "selfkill": 1,
+    "teamkill": 0,
+    "assister": 66,
+    "Score": 0.524
+  },
+  "STEAM_0:1:128380033": {
+    "identity": "STEAM_0:1:128380033",
+    "name": "atreusz",
+    "kill": 1042,
+    "dead": 550,
+    "selfkill": 6,
+    "teamkill": 2,
+    "assister": 174,
+    "Score": 2.0362976406533577
+  },
+  "STEAM_0:0:28808732": {
+    "identity": "STEAM_0:0:28808732",
+    "name": "Q-Dance",
+    "kill": 27,
+    "dead": 25,
+    "selfkill": 0,
+    "teamkill": 0,
+    "assister": 9,
+    "Score": 1.2115384615384615
+  },
+  "STEAM_0:0:29331512": {
+    "identity": "STEAM_0:0:29331512",
+    "name": "\u2602\u2708\uFE0F\u26DF  Sufni88   \u267F \u262D \uD83C\uDFD3",
+    "kill": 701,
+    "dead": 877,
+    "selfkill": 6,
+    "teamkill": 0,
+    "assister": 238,
+    "Score": 0.9271070615034168
+  },
+  "STEAM_0:1:108988899": {
+    "identity": "STEAM_0:1:108988899",
+    "name": "Hencsokaska",
+    "kill": 783,
+    "dead": 1027,
+    "selfkill": 6,
+    "teamkill": 5,
+    "assister": 222,
+    "Score": 0.8613813229571985
+  },
+  "STEAM_0:1:54031464": {
+    "identity": "STEAM_0:1:54031464",
+    "name": "fxdave",
+    "kill": 9,
+    "dead": 27,
+    "selfkill": 0,
+    "teamkill": 0,
+    "assister": 8,
+    "Score": 0.4642857142857143
+  },
+  "STEAM_0:1:683151040": {
+    "identity": "STEAM_0:1:683151040",
+    "name": "NUGI",
+    "kill": 6,
+    "dead": 0,
+    "selfkill": 0,
+    "teamkill": 0,
+    "assister": 0,
+    "Score": 6
+  },
+  "STEAM_0:1:761404587": {
+    "identity": "STEAM_0:1:761404587",
+    "name": "Host",
+    "kill": 2,
+    "dead": 1,
+    "selfkill": 1,
+    "teamkill": 0,
+    "assister": 0,
+    "Score": 0.5
+  },
+  "STEAM_0:1:395194225": {
+    "identity": "STEAM_0:1:395194225",
+    "name": "]JK[ Koszti \uC6C3 \uC720 \u267F\u261E\uFE0E\u2620",
+    "kill": 4,
+    "dead": 1,
+    "selfkill": 1,
+    "teamkill": 0,
+    "assister": 1,
+    "Score": 1.75
+  },
+  "STEAM_0:0:197174150": {
+    "identity": "STEAM_0:0:197174150",
+    "name": "MMXVI",
+    "kill": 24,
+    "dead": 16,
+    "selfkill": 0,
+    "teamkill": 0,
+    "assister": 8,
+    "Score": 1.6470588235294117
+  },
+  "STEAM_0:0:529786476": {
+    "identity": "STEAM_0:0:529786476",
+    "name": "csusza",
+    "kill": 23,
+    "dead": 25,
+    "selfkill": 0,
+    "teamkill": 0,
+    "assister": 7,
+    "Score": 1.0192307692307692
+  },
+  "STEAM_0:1:53239837": {
+    "identity": "STEAM_0:1:53239837",
+    "name": ".bigrincs",
+    "kill": 561,
+    "dead": 411,
+    "selfkill": 1,
+    "teamkill": 1,
+    "assister": 139,
+    "Score": 1.5266990291262137
+  },
+  "STEAM_0:1:11731587": {
+    "identity": "STEAM_0:1:11731587",
+    "name": "-=Titan=-=IDDQD \u002B IDKFA",
+    "kill": 67,
+    "dead": 112,
+    "selfkill": 1,
+    "teamkill": 1,
+    "assister": 25,
+    "Score": 0.6902654867256637
+  },
+  "STEAM_0:1:36520026": {
+    "identity": "STEAM_0:1:36520026",
+    "name": "KRUKU",
+    "kill": 0,
+    "dead": 2,
+    "selfkill": 0,
+    "teamkill": 0,
+    "assister": 1,
+    "Score": 0.16666666666666666
+  },
+  "STEAM_0:1:91210334": {
+    "identity": "STEAM_0:1:91210334",
+    "name": "Atis\u267F",
+    "kill": 136,
+    "dead": 101,
+    "selfkill": 3,
+    "teamkill": 0,
+    "assister": 35,
+    "Score": 1.4754901960784315
+  },
+  "STEAM_0:1:18897457": {
+    "identity": "STEAM_0:1:18897457",
+    "name": "\uD835\uDCAE\uD835\uDCB6\uD835\uDCC3\uD835\uDCC7\uD835\uDCB6\uD835\uDCBEz",
+    "kill": 86,
+    "dead": 49,
+    "selfkill": 0,
+    "teamkill": 0,
+    "assister": 16,
+    "Score": 1.88
+  },
+  "STEAM_0:1:37596719": {
+    "identity": "STEAM_0:1:37596719",
+    "name": "Z\u0171rlord",
+    "kill": 247,
+    "dead": 332,
+    "selfkill": 1,
+    "teamkill": 1,
+    "assister": 93,
+    "Score": 0.8768768768768769
+  },
+  "STEAM_0:0:241376752": {
+    "identity": "STEAM_0:0:241376752",
+    "name": "\u30A8\u30AD\u30BD",
+    "kill": 2,
+    "dead": 2,
+    "selfkill": 1,
+    "teamkill": 0,
+    "assister": 1,
+    "Score": 0.5
+  },
+  "STEAM_0:0:28893566": {
+    "identity": "STEAM_0:0:28893566",
+    "name": "v\u00E9konykutya",
+    "kill": 48,
+    "dead": 43,
+    "selfkill": 0,
+    "teamkill": 0,
+    "assister": 6,
+    "Score": 1.1590909090909092
+  },
+  "STEAM_0:0:446376612": {
+    "identity": "STEAM_0:0:446376612",
+    "name": "\u2606Anthony\u2606",
+    "kill": 0,
+    "dead": 1,
+    "selfkill": 0,
+    "teamkill": 0,
+    "assister": 1,
+    "Score": 0.25
+  },
+  "STEAM_0:1:57543850": {
+    "identity": "STEAM_0:1:57543850",
+    "name": "Tyuri\u0027\u2601\u2122",
+    "kill": 148,
+    "dead": 128,
+    "selfkill": 0,
+    "teamkill": 1,
+    "assister": 48,
+    "Score": 1.3294573643410852
+  },
+  "STEAM_0:0:79997250": {
+    "identity": "STEAM_0:0:79997250",
+    "name": "BaKKeR",
+    "kill": 64,
+    "dead": 47,
+    "selfkill": 1,
+    "teamkill": 1,
+    "assister": 13,
+    "Score": 1.4375
+  },
+  "STEAM_0:0:98394335": {
+    "identity": "STEAM_0:0:98394335",
+    "name": "Lencse",
+    "kill": 620,
+    "dead": 547,
+    "selfkill": 3,
+    "teamkill": 1,
+    "assister": 158,
+    "Score": 1.2691605839416058
+  },
+  "STEAM_0:0:157352789": {
+    "identity": "STEAM_0:0:157352789",
+    "name": "Danny",
+    "kill": 0,
+    "dead": 1,
+    "selfkill": 0,
+    "teamkill": 0,
+    "assister": 0,
+    "Score": 0
+  },
+  "STEAM_0:0:32110788": {
+    "identity": "STEAM_0:0:32110788",
+    "name": "VELOC1Ty",
+    "kill": 84,
+    "dead": 76,
+    "selfkill": 0,
+    "teamkill": 0,
+    "assister": 28,
+    "Score": 1.2727272727272727
+  },
+  "STEAM_0:0:167664857": {
+    "identity": "STEAM_0:0:167664857",
+    "name": "Neo",
+    "kill": 112,
+    "dead": 105,
+    "selfkill": 0,
+    "teamkill": 0,
+    "assister": 28,
+    "Score": 1.1886792452830188
+  },
+  "STEAM_0:0:573714760": {
+    "identity": "STEAM_0:0:573714760",
+    "name": "Lineman",
+    "kill": 99,
+    "dead": 75,
+    "selfkill": 2,
+    "teamkill": 1,
+    "assister": 24,
+    "Score": 1.4276315789473684
+  },
+  "STEAM_0:1:965593851": {
+    "identity": "STEAM_0:1:965593851",
+    "name": "subotta",
+    "kill": 5,
+    "dead": 2,
+    "selfkill": 1,
+    "teamkill": 0,
+    "assister": 0,
+    "Score": 1.3333333333333333
+  },
+  "STEAM_0:1:96399851": {
+    "identity": "STEAM_0:1:96399851",
+    "name": "La\u0027masuli",
+    "kill": 237,
+    "dead": 375,
+    "selfkill": 2,
+    "teamkill": 0,
+    "assister": 90,
+    "Score": 0.7446808510638298
+  },
+  "STEAM_0:1:589155973": {
+    "identity": "STEAM_0:1:589155973",
+    "name": "kunumario\u003C3",
+    "kill": 991,
+    "dead": 712,
+    "selfkill": 2,
+    "teamkill": 2,
+    "assister": 207,
+    "Score": 1.5308555399719495
+  },
+  "STEAM_0:0:77646585": {
+    "identity": "STEAM_0:0:77646585",
+    "name": "TuPa#Er\u0150s",
+    "kill": 64,
+    "dead": 57,
+    "selfkill": 0,
+    "teamkill": 0,
+    "assister": 18,
+    "Score": 1.2586206896551724
+  },
+  "STEAM_0:0:62542866": {
+    "identity": "STEAM_0:0:62542866",
+    "name": "Nailz",
+    "kill": 1,
+    "dead": 1,
+    "selfkill": 0,
+    "teamkill": 0,
+    "assister": 1,
+    "Score": 0.75
+  },
+  "STEAM_0:1:634459731": {
+    "identity": "STEAM_0:1:634459731",
+    "name": "K\u00E9k raki m\u00F6g\u00F6tt tala ch4",
+    "kill": 29,
+    "dead": 33,
+    "selfkill": 0,
+    "teamkill": 0,
+    "assister": 10,
+    "Score": 1
+  },
+  "STEAM_0:0:10847596": {
+    "identity": "STEAM_0:0:10847596",
+    "name": "g\u00F6mbi",
+    "kill": 68,
+    "dead": 67,
+    "selfkill": 0,
+    "teamkill": 0,
+    "assister": 27,
+    "Score": 1.1985294117647058
+  },
+  "STEAM_0:1:40184662": {
+    "identity": "STEAM_0:1:40184662",
+    "name": "Kakarot",
+    "kill": 12,
+    "dead": 27,
+    "selfkill": 0,
+    "teamkill": 0,
+    "assister": 7,
+    "Score": 0.5535714285714286
+  },
+  "STEAM_0:0:25183239": {
+    "identity": "STEAM_0:0:25183239",
+    "name": "[N]arancs",
+    "kill": 0,
+    "dead": 6,
+    "selfkill": 0,
+    "teamkill": 0,
+    "assister": 0,
+    "Score": 0
+  },
+  "STEAM_0:1:35758039": {
+    "identity": "STEAM_0:1:35758039",
+    "name": "NERLovag\u0060",
+    "kill": 213,
+    "dead": 184,
+    "selfkill": 0,
+    "teamkill": 0,
+    "assister": 53,
+    "Score": 1.2945945945945947
+  },
+  "STEAM_0:1:148702986": {
+    "identity": "STEAM_0:1:148702986",
+    "name": "M\u00E1rti",
+    "kill": 36,
+    "dead": 20,
+    "selfkill": 1,
+    "teamkill": 0,
+    "assister": 3,
+    "Score": 1.7380952380952381
+  },
+  "STEAM_0:1:225800404": {
+    "identity": "STEAM_0:1:225800404",
+    "name": "s\u00F6t\u00E9t\u00E1rny",
+    "kill": 76,
+    "dead": 49,
+    "selfkill": 0,
+    "teamkill": 1,
+    "assister": 30,
+    "Score": 1.81
+  },
+  "STEAM_0:1:29423328": {
+    "identity": "STEAM_0:1:29423328",
+    "name": "][-][alo",
+    "kill": 11,
+    "dead": 16,
+    "selfkill": 2,
+    "teamkill": 0,
+    "assister": 0,
+    "Score": 0.5294117647058824
+  },
+  "STEAM_0:1:11398308": {
+    "identity": "STEAM_0:1:11398308",
+    "name": "Cutler",
+    "kill": 11,
+    "dead": 17,
+    "selfkill": 0,
+    "teamkill": 0,
+    "assister": 2,
+    "Score": 0.6666666666666666
+  },
+  "STEAM_0:1:149680176": {
+    "identity": "STEAM_0:1:149680176",
+    "name": "darklaci",
+    "kill": 58,
+    "dead": 80,
+    "selfkill": 0,
+    "teamkill": 0,
+    "assister": 26,
+    "Score": 0.8765432098765432
+  },
+  "STEAM_0:1:48525378": {
+    "identity": "STEAM_0:1:48525378",
+    "name": "k,no",
+    "kill": 35,
+    "dead": 25,
+    "selfkill": 0,
+    "teamkill": 0,
+    "assister": 7,
+    "Score": 1.4807692307692308
+  },
+  "STEAM_0:1:99471656": {
+    "identity": "STEAM_0:1:99471656",
+    "name": "\u0E04\u0E53\u0E22l\u0454t",
+    "kill": 41,
+    "dead": 45,
+    "selfkill": 1,
+    "teamkill": 1,
+    "assister": 15,
+    "Score": 1.0217391304347827
+  }
+}

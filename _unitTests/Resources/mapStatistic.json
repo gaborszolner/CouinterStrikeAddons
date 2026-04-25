@@ -1,0 +1,380 @@
+{
+  "de_brewery": {
+    "name": "de_brewery",
+    "tWin": 86,
+    "ctWin": 130,
+    "lastPlayed": "2026-02-05T20:25:30.0703526"
+  },
+  "de_westwood": {
+    "name": "de_westwood",
+    "tWin": 580,
+    "ctWin": 618,
+    "lastPlayed": "2026-02-07T23:17:59.7173336"
+  },
+  "cs_little_office": {
+    "name": "cs_little_office",
+    "tWin": 546,
+    "ctWin": 378,
+    "lastPlayed": "2026-02-07T21:15:58.001478"
+  },
+  "de_doomhouse_remake": {
+    "name": "de_doomhouse_remake",
+    "tWin": 372,
+    "ctWin": 326,
+    "lastPlayed": "2026-02-06T22:16:35.2277423"
+  },
+  "xmas_nipperhouse_old": {
+    "name": "xmas_nipperhouse_old",
+    "tWin": 137,
+    "ctWin": 164,
+    "lastPlayed": "2026-02-01T21:19:49.4724621"
+  },
+  "de_treehouse_invasion_2": {
+    "name": "de_treehouse_invasion_2",
+    "tWin": 188,
+    "ctWin": 201,
+    "lastPlayed": "2026-01-17T22:18:05.0106934"
+  },
+  "cs2_max": {
+    "name": "cs2_max",
+    "tWin": 175,
+    "ctWin": 151,
+    "lastPlayed": "2026-02-01T22:25:37.497264"
+  },
+  "nuketown": {
+    "name": "nuketown",
+    "tWin": 94,
+    "ctWin": 106,
+    "lastPlayed": "2026-02-04T21:28:38.077288"
+  },
+  "de_safehouse": {
+    "name": "de_safehouse",
+    "tWin": 348,
+    "ctWin": 338,
+    "lastPlayed": "2026-02-03T21:45:32.9654542"
+  },
+  "de_beerhouse_d": {
+    "name": "de_beerhouse_d",
+    "tWin": 392,
+    "ctWin": 458,
+    "lastPlayed": "2026-02-07T20:19:24.717267"
+  },
+  "de_palais": {
+    "name": "de_palais",
+    "tWin": 70,
+    "ctWin": 86,
+    "lastPlayed": "2026-01-11T21:23:20.6716875"
+  },
+  "de_drachenschanze": {
+    "name": "de_drachenschanze",
+    "tWin": 281,
+    "ctWin": 267,
+    "lastPlayed": "2026-02-07T21:40:18.7924814"
+  },
+  "de_lake": {
+    "name": "de_lake",
+    "tWin": 199,
+    "ctWin": 254,
+    "lastPlayed": "2026-02-02T21:29:57.3057282"
+  },
+  "de_cbble_csgo": {
+    "name": "de_cbble_csgo",
+    "tWin": 29,
+    "ctWin": 42,
+    "lastPlayed": "2026-01-25T21:38:21.70813"
+  },
+  "fun_bounce": {
+    "name": "fun_bounce",
+    "tWin": 21,
+    "ctWin": 25,
+    "lastPlayed": "2026-02-02T23:05:07.1723199"
+  },
+  "glass_war": {
+    "name": "glass_war",
+    "tWin": 89,
+    "ctWin": 110,
+    "lastPlayed": "2026-01-01T21:57:07.5007669"
+  },
+  "de_zoo": {
+    "name": "de_zoo",
+    "tWin": 13,
+    "ctWin": 8,
+    "lastPlayed": "2026-01-30T21:39:32.3838342"
+  },
+  "xmas_nipperhouse24": {
+    "name": "xmas_nipperhouse24",
+    "tWin": 106,
+    "ctWin": 154,
+    "lastPlayed": "2026-02-04T20:47:10.7740312"
+  },
+  "dorf": {
+    "name": "dorf",
+    "tWin": 215,
+    "ctWin": 296,
+    "lastPlayed": "2026-02-04T21:49:26.2208128"
+  },
+  "de_foroglio": {
+    "name": "de_foroglio",
+    "tWin": 152,
+    "ctWin": 128,
+    "lastPlayed": "2026-02-06T22:32:43.0077367"
+  },
+  "de_cache": {
+    "name": "de_cache",
+    "tWin": 108,
+    "ctWin": 114,
+    "lastPlayed": "2026-02-08T00:01:07.7780687"
+  },
+  "de_seaside_d_prefab": {
+    "name": "de_seaside_d_prefab",
+    "tWin": 48,
+    "ctWin": 63,
+    "lastPlayed": "2026-01-23T23:59:06.9235939"
+  },
+  "de_piperplane": {
+    "name": "de_piperplane",
+    "tWin": 10,
+    "ctWin": 7,
+    "lastPlayed": "0001-01-01T00:00:00"
+  },
+  "de_mutiny": {
+    "name": "de_mutiny",
+    "tWin": 11,
+    "ctWin": 8,
+    "lastPlayed": "0001-01-01T00:00:00"
+  },
+  "de_piranesi": {
+    "name": "de_piranesi",
+    "tWin": 78,
+    "ctWin": 57,
+    "lastPlayed": "2026-02-07T22:07:30.5824766"
+  },
+  "cs_motel_d_prefab": {
+    "name": "cs_motel_d_prefab",
+    "tWin": 25,
+    "ctWin": 28,
+    "lastPlayed": "2025-12-26T21:02:52.8045076"
+  },
+  "de_nipperhouse": {
+    "name": "de_nipperhouse",
+    "tWin": 133,
+    "ctWin": 135,
+    "lastPlayed": "2026-01-28T20:17:28.0064146"
+  },
+  "de_dolls": {
+    "name": "de_dolls",
+    "tWin": 130,
+    "ctWin": 118,
+    "lastPlayed": "2026-01-23T21:20:01.964733"
+  },
+  "de_rats_1337": {
+    "name": "de_rats_1337",
+    "tWin": 142,
+    "ctWin": 133,
+    "lastPlayed": "2026-02-05T20:44:02.1407207"
+  },
+  "cs_estate_cso2": {
+    "name": "cs_estate_cso2",
+    "tWin": 33,
+    "ctWin": 33,
+    "lastPlayed": "2026-01-01T20:57:05.9957002"
+  },
+  "acs2_assault": {
+    "name": "acs2_assault",
+    "tWin": 5,
+    "ctWin": 7,
+    "lastPlayed": "2026-01-15T21:39:30.1602003"
+  },
+  "de_westwood2_cs2": {
+    "name": "de_westwood2_cs2",
+    "tWin": 35,
+    "ctWin": 51,
+    "lastPlayed": "2026-01-26T19:56:30.8896103"
+  },
+  "de_canals": {
+    "name": "de_canals",
+    "tWin": 57,
+    "ctWin": 46,
+    "lastPlayed": "2026-01-27T21:29:33.332021"
+  },
+  "cs_hotel": {
+    "name": "cs_hotel",
+    "tWin": 49,
+    "ctWin": 41,
+    "lastPlayed": "2026-01-08T21:33:31.098488"
+  },
+  "de_austria_fi_d": {
+    "name": "de_austria_fi_d",
+    "tWin": 88,
+    "ctWin": 96,
+    "lastPlayed": "2026-02-07T22:52:44.7313456"
+  },
+  "cs_agency": {
+    "name": "cs_agency",
+    "tWin": 39,
+    "ctWin": 37,
+    "lastPlayed": "2026-01-02T18:58:19.6907841"
+  },
+  "cs_italy": {
+    "name": "cs_italy",
+    "tWin": 22,
+    "ctWin": 37,
+    "lastPlayed": "2026-01-30T20:42:35.8827818"
+  },
+  "de_inferno": {
+    "name": "de_inferno",
+    "tWin": 8,
+    "ctWin": 12,
+    "lastPlayed": "0001-01-01T00:00:00"
+  },
+  "cs_cliff": {
+    "name": "cs_cliff",
+    "tWin": 147,
+    "ctWin": 150,
+    "lastPlayed": "2026-02-07T22:28:03.3942678"
+  },
+  "de_outferno": {
+    "name": "de_outferno",
+    "tWin": 25,
+    "ctWin": 17,
+    "lastPlayed": "2026-02-01T20:00:25.009381"
+  },
+  "cs_museum_d": {
+    "name": "cs_museum_d",
+    "tWin": 7,
+    "ctWin": 10,
+    "lastPlayed": "0001-01-01T00:00:00"
+  },
+  "de_wrecked": {
+    "name": "de_wrecked",
+    "tWin": 6,
+    "ctWin": 15,
+    "lastPlayed": "2026-01-05T21:59:38.4669644"
+  },
+  "de_dust2": {
+    "name": "de_dust2",
+    "tWin": 9,
+    "ctWin": 14,
+    "lastPlayed": "2026-01-10T22:43:04.5638202"
+  },
+  "de_meteora": {
+    "name": "de_meteora",
+    "tWin": 19,
+    "ctWin": 20,
+    "lastPlayed": "2026-01-20T21:49:24.7468729"
+  },
+  "de_overpass": {
+    "name": "de_overpass",
+    "tWin": 9,
+    "ctWin": 7,
+    "lastPlayed": "2025-11-27T20:33:39.4820487+00:00"
+  },
+  "de_nuke": {
+    "name": "de_nuke",
+    "tWin": 6,
+    "ctWin": 5,
+    "lastPlayed": "2025-11-28T23:18:29.0135701+00:00"
+  },
+  "de_vertigo": {
+    "name": "de_vertigo",
+    "tWin": 16,
+    "ctWin": 18,
+    "lastPlayed": "2026-01-10T22:26:21.2609566"
+  },
+  "de_codewise_cs2": {
+    "name": "de_codewise_cs2",
+    "tWin": 27,
+    "ctWin": 45,
+    "lastPlayed": "2026-01-29T21:04:57.6471488"
+  },
+  "de_neptune": {
+    "name": "de_neptune",
+    "tWin": 3,
+    "ctWin": 0,
+    "lastPlayed": "2025-12-01T20:37:53.0059806+00:00"
+  },
+  "de_rats_remake": {
+    "name": "de_rats_remake",
+    "tWin": 0,
+    "ctWin": 1,
+    "lastPlayed": "0001-01-01T00:00:00"
+  },
+  "cs_office": {
+    "name": "cs_office",
+    "tWin": 15,
+    "ctWin": 22,
+    "lastPlayed": "2026-01-29T20:31:53.9791872"
+  },
+  "de_granite_remake": {
+    "name": "de_granite_remake",
+    "tWin": 256,
+    "ctWin": 249,
+    "lastPlayed": "2026-02-06T20:50:56.9395481"
+  },
+  "de_mocha": {
+    "name": "de_mocha",
+    "tWin": 3,
+    "ctWin": 10,
+    "lastPlayed": "2025-12-26T21:55:30.0031788"
+  },
+  "de_gwalior_d": {
+    "name": "de_gwalior_d",
+    "tWin": 8,
+    "ctWin": 14,
+    "lastPlayed": "2026-02-07T20:24:16.405532"
+  },
+  "de_dust": {
+    "name": "de_dust",
+    "tWin": 12,
+    "ctWin": 20,
+    "lastPlayed": "2026-01-15T20:12:17.5588041"
+  },
+  "de_pripyat_remake": {
+    "name": "de_pripyat_remake",
+    "tWin": 37,
+    "ctWin": 21,
+    "lastPlayed": "2026-01-16T20:40:22.154388"
+  },
+  "glass_war_remake": {
+    "name": "glass_war_remake",
+    "tWin": 19,
+    "ctWin": 23,
+    "lastPlayed": "2026-01-18T20:01:38.7016037"
+  },
+  "aim_pistol_remake": {
+    "name": "aim_pistol_remake",
+    "tWin": 93,
+    "ctWin": 80,
+    "lastPlayed": "2026-02-02T22:02:20.3730808"
+  },
+  "de_fachwerk": {
+    "name": "de_fachwerk",
+    "tWin": 3,
+    "ctWin": 0,
+    "lastPlayed": "2026-01-02T18:26:38.796682"
+  },
+  "de_mission": {
+    "name": "de_mission",
+    "tWin": 1,
+    "ctWin": 1,
+    "lastPlayed": "2026-01-04T00:51:07.5420415"
+  },
+  "de_mirage": {
+    "name": "de_mirage",
+    "tWin": 28,
+    "ctWin": 26,
+    "lastPlayed": "2026-02-07T23:41:10.670135"
+  },
+  "de_whistle": {
+    "name": "de_whistle",
+    "tWin": 6,
+    "ctWin": 7,
+    "lastPlayed": "2026-01-15T19:27:46.0145049"
+  },
+  "de_aztec_hr": {
+    "name": "de_aztec_hr",
+    "tWin": 9,
+    "ctWin": 9,
+    "lastPlayed": "2026-01-31T21:34:59.4298711"
+  }
+}

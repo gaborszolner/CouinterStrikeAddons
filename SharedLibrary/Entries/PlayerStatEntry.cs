@@ -1,8 +1,8 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace GameStatistic
+namespace SharedLibrary.Entries
 {
-    internal class StatisticEntry(string identity, string name, int kill = 0, int dead = 0, int selfKill = 0, int teamKill = 0, int assister = 0)
+    public class PlayerStatEntry(string identity, string name, int kill = 0, int dead = 0, int selfKill = 0, int teamKill = 0, int assister = 0)
     {
         [JsonPropertyName("identity")]
         public string Identity { get; set; } = identity;
@@ -25,6 +25,6 @@ namespace GameStatistic
         [JsonPropertyName("assister")]
         public int Assister { get; set; } = assister;
 
-        internal double Score => (Kill + (0.5 * Assister) - SelfKill - (0.5 * TeamKill)) / (Dead + 1);
+        public double Score => (Kill + (0.5 * Assister) - SelfKill - (0.5 * TeamKill)) / (Dead + 1);
     }
 }

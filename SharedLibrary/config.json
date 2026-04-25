@@ -1,0 +1,8 @@
+{
+  "WelcomeMessage": "Welcome to the server {0}!",
+  "AutoTeamShuffleMinDifferentPercentage": 25,
+  "AutoTeamShuffleOnRoundStart": true,
+  "DateRangeForStatisticsInMonth": 3,
+  "AllowSameName": false,
+  "MuteAfterDeathInSecounds": 0
+}

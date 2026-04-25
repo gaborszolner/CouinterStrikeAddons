@@ -1,0 +1,39 @@
+﻿
+namespace SharedLibrary
+{
+    public class Config
+    {
+        public bool AutoTeamShuffleOnRoundStart { get; set; } = false;
+
+        public int AutoTeamShuffleMinDifferentPercentage { get; set; } = 25;
+
+        public string WelcomeMessage { get; set; } = "Welcome to the server {0}!";
+
+        public int DateRangeForStatisticsInMonth { get; set; } = 3;
+
+        public bool AllowSameName { get; set; } = true;
+
+        public int MuteAfterDeathInSecounds { get; set; } = 0;
+
+        public static Config LoadConfig(string configFile)
+        {
+            Config? config = null;
+            try
+            {
+                if (!File.Exists(configFile))
+                {
+                    config = new Config();
+                    var json = System.Text.Json.JsonSerializer.Serialize(config, new System.Text.Json.JsonSerializerOptions { WriteIndented = true });
+                    File.WriteAllText(configFile, json);
+                    return config;
+                }
+                string fileContent = File.ReadAllText(configFile);
+                config = System.Text.Json.JsonSerializer.Deserialize<Config>(fileContent);
+            }
+            catch { }
+
+
+            return config ?? new Config();
+        }
+    }
+}

@@ -1,0 +1,21 @@
+﻿using CounterStrikeSharp.API;
+using CounterStrikeSharp.API.Core;
+using CounterStrikeSharp.API.Modules.Menu;
+using Microsoft.Extensions.Logging;
+
+namespace AdminMenu
+{
+    public partial class AdminMenu : BasePlugin
+    {
+        private void MuteAction(CCSPlayerController adminPlayer, ChatMenuOption option)
+        {
+            ShowPlayerListMenu(adminPlayer, false, false, (CCSPlayerController targetPlayer) =>
+            {
+                Server.PrintToChatAll($"{targetPlayer.PlayerName} has been muted by {adminPlayer.PlayerName}.");
+                targetPlayer.VoiceFlags = targetPlayer.VoiceFlags |= VoiceFlags.Muted;
+                MenuManager.GetActiveMenu(adminPlayer)?.Close();
+                Logger?.LogInformation($"{PluginPrefix} {targetPlayer.PlayerName} has been muted by {adminPlayer.PlayerName}.");
+            });
+        }
+    }
+}
