@@ -1,5 +1,4 @@
-﻿using CounterStrikeSharp.API.Modules.Utils;
-using SharedLibrary;
+﻿using SharedLibrary;
 using SharedLibrary.Entries;
 using System.Diagnostics;
 

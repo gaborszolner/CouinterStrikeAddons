@@ -125,6 +125,7 @@ namespace AdminMenu
             {
                 Server.PrintToChatAll($"{PluginPrefix} {ChatColors.Yellow}Current diff is {ChatColors.Red}{currentDifferentPercentage:F2}%{ChatColors.Yellow}, auto team shuffle activated");
                 TeamShuffleAction(null, null);
+                StatisticHelper.PrintTeamStat(StatisticHelper.LoadMonthsStats(ModuleDirectory, _config.DateRangeForStatisticsInMonth));
             }
 
             return HookResult.Continue;

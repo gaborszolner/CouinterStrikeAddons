@@ -2,7 +2,6 @@
 using CounterStrikeSharp.API.Core;
 using CounterStrikeSharp.API.Modules.Utils;
 using SharedLibrary.Entries;
-using System.Collections.Generic;
 
 namespace SharedLibrary
 {
@@ -102,11 +101,6 @@ namespace SharedLibrary
             return $"playerStatistic{dateTime:yyyyMM}.json";
         }
 
-        public static void PrintTeamStat(string basePath, int month) 
-        {
-            PrintTeamStat(StatisticHelper.LoadMonthsStats(basePath, month));
-        }
-
         public static void PrintMapStat(string statFilePath)
         {
             DateTime lastPlayed = DateTime.MinValue;
@@ -115,14 +109,9 @@ namespace SharedLibrary
                 Utils.ReadStoredStat<Dictionary<string, MapStatEntry>>(statFilePath)
                 ?? [];
 
-            if (storedStats.ContainsKey(mapName))
-            {
-                lastPlayed = storedStats[mapName].LastPlayed;
-            }
-            else
-            {
-                lastPlayed = DateTime.MinValue;
-            }
+            lastPlayed = storedStats.ContainsKey(mapName) 
+                ? storedStats[mapName].LastPlayed
+                : DateTime.MinValue;
 
             if (storedStats is not null && storedStats.ContainsKey(mapName))
             {

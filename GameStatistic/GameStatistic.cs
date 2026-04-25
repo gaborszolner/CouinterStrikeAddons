@@ -1,7 +1,6 @@
 ﻿using CounterStrikeSharp.API;
 using CounterStrikeSharp.API.Core;
 using CounterStrikeSharp.API.Modules.Events;
-using CounterStrikeSharp.API.Modules.Utils;
 using SharedLibrary;
 using SharedLibrary.Entries;
 
@@ -64,7 +63,7 @@ namespace GameStatistic
             }
             else if (@event?.Text.Trim().ToLower() is "!teamstat")
             {
-                StatisticHelper.PrintTeamStat(ModuleDirectory, _config.DateRangeForStatisticsInMonth);
+                StatisticHelper.PrintTeamStat(StatisticHelper.LoadMonthsStats(ModuleDirectory, _config.DateRangeForStatisticsInMonth));
             }
             else if (@event?.Text.Trim().ToLower() is "!help")
             {
@@ -98,7 +97,7 @@ namespace GameStatistic
         {
             _isWarmup = false;
             StatisticHelper.PrintMapStat(_mapStatFilePath);
-            StatisticHelper.PrintTeamStat(ModuleDirectory, _config.DateRangeForStatisticsInMonth);
+            StatisticHelper.PrintTeamStat(StatisticHelper.LoadMonthsStats(ModuleDirectory, _config.DateRangeForStatisticsInMonth));
             return HookResult.Continue;
         }
 
