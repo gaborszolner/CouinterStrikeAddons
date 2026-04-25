@@ -8,7 +8,7 @@ Used stuff:
 
 # requirements:  
 - **CounterStrike2** game server.
-- **counterstrikesharp.api v1.0.362** or later.
+- **counterstrikesharp.api v1.0.367** or later.
 
 # installation:  
 Extract the folder to the `...\csgo\addons\counterstrikesharp\plugins\GameStatistic\` directory of the dedicated server.
