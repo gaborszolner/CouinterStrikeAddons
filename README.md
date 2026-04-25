@@ -1,29 +1,42 @@
-# AdminMenu
+# CouinterStrikeAddons
 
-Implementation of a AdminMenu plugin for CS2 using CounterStrikeSharp  
-<https://docs.cssharp.dev/>  
-  
+Some addons for Counter Strike 2 using CounterStrikeSharp 
+Used stuff:
+<https://docs.cssharp.dev/>
+<https://github.com/roflmuffin/CounterStrikeSharp>
+<https://www.metamodsource.net/downloads.php/?branch=master>
+
+# requirements:  
+- **CounterStrike2** game server.
+- **counterstrikesharp.api v1.0.362** or later.
+
+# installation:  
+Extract the folder to the `...\csgo\addons\counterstrikesharp\plugins\GameStatistic\` directory of the dedicated server.
+
+
+# AdminMenu
+Implementation of a AdminMenu plugin
+
 This plugin allowes to the admins:
 - ban (with time or permanent)
 - kick
 - kill
 - slap
 - respawn
-- rename
+- mute/unmuate (manually or automatic after death, configurable)
+- rename any player (write the new name to the chat adfter select this menu item)
 - set team for a player (and respawn if you need)
 - respawn
+- auto rename if player name already exist (Configurable)
 - drop weapon
 - change map (RockTheVote addon or its maplist.txt file needed)
-- team shuffle (GameStatistic addon stat file needed. See addon here: https://github.com/gaborszolner/GameStatistic)
+- team shuffle (Configurable. GameStatistic addon stat file needed. See addon here: https://github.com/gaborszolner/GameStatistic)
 - bot add, kick
 - set admin with level
 - weapon (un)restrict - current map or all maps
+- welcome or ban message after connect (configurable)
 
 There are 3 level for admins, lower can't use action on higher admins.
-
-# requirements:  
-- **CounterStrike2** game server.
-- **counterstrikesharp.api v1.0.354** or later.
 
 ---
 # installation:  
@@ -36,9 +49,7 @@ Extract the folder to the `...\csgo\addons\counterstrikesharp\plugins\AdminMenu\
 
 
 # GameStatistic
-  
-Implementation of a GameStatistic plugin for CS2 using CounterStrikeSharp  
-<https://docs.cssharp.dev/>  
+Implementation of a GameStatistic plugin
   
 This CS2 addon generates statistics for players and maps, but only if there are at least 4 players.
 
@@ -53,35 +64,17 @@ Map statistics:
   - It tracks how many times the CT and T sides have won on the given map.
   - Usable commands: !mapstat.
 
----
-# requirements:  
-- **CounterStrike2** game server.
-- **counterstrikesharp.api v1.0.354** or later.
-
----
-# installation:  
-Extract the folder to the `...\csgo\addons\counterstrikesharp\plugins\GameStatistic\` directory of the dedicated server.
-
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 # MenuHotKey
   
-Implementation of a MenuHotKey plugin for CS2 using CounterStrikeSharp  
-<https://docs.cssharp.dev/>  
+Implementation of a MenuHotKey plugin
   
 This plugin allowes to choose menu items without type to console !1, !2, !3 ...
 - you have to bind buttons: for example, if you want to bind menu option 3 to Numpad 3, type bind kp_3 "3" into the console.
 - for official key mapping see: https://steamcommunity.com/sharedfiles/filedetails/?id=2498088800
----
-# requirements:  
-- **CounterStrike2** game server.
-- **counterstrikesharp.api v1.0.354** or later.
-
----
-# installation:  
-Extract the folder to the `...\csgo\addons\counterstrikesharp\plugins\MenuHotKey\` directory of the dedicated server.
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -99,24 +92,13 @@ This plugin allowes defuse the bomb by cut wires (1 - green, 2- yellow, 3 - red,
 - you can choose the color in chat by typing, for example, !1.
 - It is STRONGLY recommended to use the MenuHotkey plugin from my repository. With it, you can instantly select a wire in the pop-up menu. (and it works with every menu)
 
-
----
-# requirements:  
-- **CounterStrike2** game server.
-- **counterstrikesharp.api v1.0.354** or later.
-
----
-# installation:  
-Extract the folder to the `...\csgo\addons\counterstrikesharp\plugins\QuickDefuse\` directory of the dedicated server.
-
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////
+
 
 # CounterStrike2 Map Switch Plugin
 
-## Overview
-
-This plugin is designed for **CounterStrike2** and utilizes the **counterstrikesharp.api v1.0.348** to automatically switch to a specified map after the server starts. The map is selected from a `startMap.txt` file, which contains the map name and map ID. The plugin waits for 3 seconds after the server starts and then switches to the map specified in the `startMap.txt` file.
+This plugin is designed for **CounterStrike2** to automatically switch to a specified map after the server starts. The map is selected from a `startMap.txt` file, which contains the map name and map ID. The plugin waits for 3 seconds after the server starts and then switches to the map specified in the `startMap.txt` file.
 
 ## Features
 
@@ -126,8 +108,6 @@ This plugin is designed for **CounterStrike2** and utilizes the **counterstrikes
 
 ## Requirements
 
-- **CounterStrike2** game server.
-- **counterstrikesharp.api v1.0.354** or later.
 - A `startMap.txt` file located in the appropriate directory (typically the root directory of your server).
 
 ## Installation
