@@ -101,19 +101,21 @@ namespace SharedLibrary
             return $"playerStatistic{dateTime:yyyyMM}.json";
         }
 
-        public static void PrintMapStat(string statFilePath)
+        public static void PrintMapStat(string statFilePath, bool refreshCache = false)
         {
-            DateTime lastPlayed = DateTime.MinValue;
             string mapName = Server.MapName.Trim() ?? string.Empty;
             var storedStats =
                 Utils.ReadStoredStat<Dictionary<string, MapStatEntry>>(statFilePath)
                 ?? [];
 
-            lastPlayed = storedStats.ContainsKey(mapName) 
+            if (refreshCache)
+            {
+                CacheLastPlayedActualMap = storedStats.ContainsKey(mapName)
                 ? storedStats[mapName].LastPlayed
                 : DateTime.MinValue;
+            }
 
-            if (storedStats is not null && storedStats.ContainsKey(mapName))
+            if (storedStats.ContainsKey(mapName))
             {
                 int ctWin = storedStats[mapName].CTWin;
                 int tWin = storedStats[mapName].TWin;
@@ -121,13 +123,13 @@ namespace SharedLibrary
 
                 double tWinPercentage = (double)tWin / fullRoundCount * 100;
                 double ctWinPercentage = (double)ctWin / fullRoundCount * 100;
-                if (lastPlayed.Year == DateTime.MinValue.Year)
+                if (CacheLastPlayedActualMap.Year == DateTime.MinValue.Year)
                 {
                     Server.PrintToChatAll($"On this map {ChatColors.Red} T win: {tWinPercentage:F2}%, {ChatColors.Blue}CT win: {ctWinPercentage:F2}%, {ChatColors.Green}Never played before");
                 }
                 else
                 {
-                    TimeSpan difference = Utils.GetServerTime() - lastPlayed;
+                    TimeSpan difference = Utils.GetServerTime() - CacheLastPlayedActualMap;
                     var daysPassed = difference.TotalDays;
                     Server.PrintToChatAll($"On this map {ChatColors.Red} T win: {tWinPercentage:F2}%, {ChatColors.Blue}CT win: {ctWinPercentage:F2}%, {ChatColors.Green}Last played {daysPassed:F1} day(s) ago");
                 }
@@ -160,6 +162,8 @@ namespace SharedLibrary
 
             Server.PrintToChatAll($"{ChatColors.Green} Team Scores: {comparisonText}");
         }
+
+        public static DateTime CacheLastPlayedActualMap { get; set; } = DateTime.MinValue;
 
         public static string PlayerStatFileName => GetPlayerStatFileName(DateTime.Now);
 

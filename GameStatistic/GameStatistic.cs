@@ -17,7 +17,6 @@ namespace GameStatistic
 
         private string _playerStatFilePath => Path.Combine(ModuleDirectory, StatisticHelper.PlayerStatFileName);
         private static string _mapStatFilePath = string.Empty;
-
         private static Dictionary<string, PlayerStatEntry> _playerStatEntries = [];
         private static bool _isWarmup = false;
         private static bool _isRoundEnded = false;
@@ -25,12 +24,12 @@ namespace GameStatistic
 
         public override void Load(bool hotReload)
         {
-            RegisterEventHandler<EventRoundEnd>(OnRoundEnd);
-            RegisterEventHandler<EventRoundStart>(OnRoundStart);
-            RegisterEventHandler<EventPlayerDeath>(OnPlayerDeath);
-            RegisterEventHandler<EventWarmupEnd>(OnWarmupEnd);
-            RegisterEventHandler<EventPlayerChat>(OnPlayerChat);
             RegisterEventHandler<EventRoundAnnounceWarmup>(OnRoundAnnounceWarmup);
+            RegisterEventHandler<EventWarmupEnd>(OnWarmupEnd);
+            RegisterEventHandler<EventRoundStart>(OnRoundStart);
+            RegisterEventHandler<EventRoundEnd>(OnRoundEnd);
+            RegisterEventHandler<EventPlayerDeath>(OnPlayerDeath);
+            RegisterEventHandler<EventPlayerChat>(OnPlayerChat);
             RegisterEventHandler<EventStartHalftime>(OnStartHalftime);
             _mapStatFilePath = Path.Combine(ModuleDirectory, StatisticHelper.MapStatFileName);
             _config = Config.LoadConfig(Path.Combine(ModuleDirectory, "config.json"));
@@ -47,7 +46,7 @@ namespace GameStatistic
 
             if (@event?.Text.Trim().ToLower() is "!mapstat")
             {
-                StatisticHelper.PrintMapStat(_mapStatFilePath);
+                StatisticHelper.PrintMapStat(_mapStatFilePath, false);
             }
             else if (@event?.Text.Trim().ToLower() is "!mystat")
             {
@@ -75,7 +74,7 @@ namespace GameStatistic
 
         private HookResult OnStartHalftime(EventStartHalftime @event, GameEventInfo info)
         {
-            StatisticHelper.PrintMapStat(_mapStatFilePath);
+            StatisticHelper.PrintMapStat(_mapStatFilePath, false);
             return HookResult.Continue;
         }
 
@@ -89,14 +88,13 @@ namespace GameStatistic
         {
             _isWarmup = true;
             _config = Config.LoadConfig(Path.Combine(ModuleDirectory, "config.json"));
-
             return HookResult.Continue;
         }
 
         private HookResult OnWarmupEnd(EventWarmupEnd @event, GameEventInfo info)
         {
             _isWarmup = false;
-            StatisticHelper.PrintMapStat(_mapStatFilePath);
+            StatisticHelper.PrintMapStat(_mapStatFilePath, true);
             StatisticHelper.PrintTeamStat(StatisticHelper.LoadMonthsStats(ModuleDirectory, _config.DateRangeForStatisticsInMonth));
             return HookResult.Continue;
         }

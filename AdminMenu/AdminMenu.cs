@@ -348,6 +348,7 @@ namespace AdminMenu
                 _adminEntry = Utils.LoadDataFromFile<AdminEntry>(_adminsFilePath);
                 _bannedEntry = Utils.LoadDataFromFile<BannedEntry>(_bannedFilePath);
                 _config = Config.LoadConfig(Path.Combine(ModuleDirectory, "config.json"));
+                player.PrintToChat($"{PluginPrefix} Configs reloaded.");
             }
         }
 
